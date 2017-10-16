@@ -1,0 +1,225 @@
+html, body {
+  background-color: #fefefe;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+*{
+  -webkit-font-smoothing: antialiased;
+}
+
+.input-group {
+	margin: .75em 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #007ee5;
+}
+
+header {
+  width: 96%;
+  margin: 0;
+  padding: .5em 2% 1em 2%;
+  color: white;
+}
+header a {
+  color: #2281CF;
+  text-decoration: none;
+}
+header a:hover {
+  color: #005180;
+}
+
+header > a.branding {
+  display: inline-block;
+  position: absolute;
+  margin: 0px;
+  left: 40px;
+}
+
+.nav {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav li {
+  display: inline;
+  padding: .2em 1em;
+  margin: 0;
+}
+
+content {
+  display: block;
+  width: 70%;
+  margin: 2em auto;
+  padding: 2em;
+  background-color: white;
+}
+
+.formContainer {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.formContainer input, .formContainer select {
+  margin: .5em 1em;
+}
+
+form {
+  margin-bottom: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em auto;
+}
+thead  {
+  padding: .5em 0;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+}
+button, .button {
+  display: inline;
+  background-color: #F0F9FF;
+  border-radius: 5px;
+  padding: .2em .5em;
+  margin: 0 2em;
+  font-size: 14px;
+  border: 1px solid #007ee5;
+  color: #007ee5;
+}
+
+button:hover, .button:hover {
+  background-color: #007ee5;
+  color: #f4f4f4;
+}
+button.submit {
+  padding: .5em 1em;
+}
+button.submit:before {
+  content: "\f058 \00a0";
+  font-family: FontAwesome;
+  font-size: 18px;
+}
+button.edit:before {
+  content: "\f040";
+  font-family: FontAwesome;
+  font-size: 18px;
+}
+button.delete {
+  background-color: #992244;
+}
+button.delete:before {
+  content: "\f1f8";
+  color: white;
+  font-family: 'FontAwesome';
+  font-size: 18px;
+}
+
+.align-center {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.instructions li {
+  margin: 1em 0;
+}
+
+.headerSortUp::before{
+  content: "\f078 \00a0";
+  font-family: FontAwesome;
+}
+
+.headerSortDown::before{
+  content: "\f077 \00a0";
+  font-family: FontAwesome;
+}
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 240px;
+    background-color: rgba(0,0,0,.85);
+    color: #fff;
+    text-align: center;
+    padding: .5em 1em;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    left: 80px;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.third{
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  margin: 2em 1% 2em 1%;
+}
+
+.half{
+  display: inline-block;
+  width: 44%;
+  text-align: center;
+  margin: 2em 2.5% 2em 2.5%;
+}
+
+.full{
+  display: block;
+  margin: 2em 0;
+  text-align: center;
+}
+
+.full > input {
+  margin: 0 2em;
+}
+
+input[type]{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+progress {
+  width: 75%;
+  background-size: 20px;
+  background-color: #eee;
+}
+
+progress::-webkit-progress-bar {
+        background: #eee;
+        border-radius: 50px;
+        padding: 2px;
+        box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.2);
+}
+
+progress::-webkit-progress-value {
+    border-radius: 50px;
+          box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.4);
+    background-size: 30px 30px;
+    background-image: linear-gradient(135deg, rgba(255, 255, 0, .15) 25%, transparent 25%,
+                      transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+                      transparent 75%, transparent);
+
+/*# sourceMappingURL=style.css.map */

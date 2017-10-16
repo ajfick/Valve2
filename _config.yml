@@ -1,0 +1,6 @@
+theme: jekyll-theme-cayman
+url: "ajfick.github.io/Valve"
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM

@@ -80,3 +80,5 @@ Transmit Date: [Date that the receipt was created in F1]
 Memo: "MM Contribution ID: ##Contribution ID## Donated to: Recipient Name"
 ```
 
+Note: You will find a portion labeled "Fix Names" in the file `getMM.php` commented out. This was our attempt to normalize names that were typed like "Bob & Karen Smith" to just match "Bob Smith". We found that this worked but with varying degrees of success for our users. So we commented it out. Please feel free to submit a pull request if you get it to work incredibly reliably!
+
